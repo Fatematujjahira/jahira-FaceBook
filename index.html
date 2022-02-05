@@ -1,212 +1,778 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jahira's Facebook</title>
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
-      rel="stylesheet"
-    />
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
-  </head>
 
-  <body>
-    <!--header section start  -->
-    <header>
-      <div class="search_area center">
-        <div class="logo">
-          <a href="#">
-            <img src="./image/logo (1).png" alt="" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jahira's Facebook</title>
+  <link rel="shortcut icon" href="./image/logo (1).png" type="image/x-icon">
+  <!-- font awesome cdn -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+  <!-- header section start -->
+  <header class="header">
+    <div class="search_bar">
+      <div class="logo">
+        <img src="./image/logo (1).png" alt="logo" />
+      </div>
+      <div class="input_field">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search Facebook" />
+      </div>
+      <div class="menu-toggler">
+        <a href="#"><i class="fas fa-bars"></i></a>
+      </div>
+    </div>
+    <nav class="nav_bar">
+      <ul>
+        <li data-tag="Home">
+          <a href="#"><span class="material-icons-outlined"> home </span></a>
+        </li>
+        <li data-tag="Friends">
+          <a class="friends" href="#"><span class="material-icons-outlined"> people </span></a>
+        </li>
+        <li data-tag="Page">
+          <a href="#"><span class="material-icons-outlined"> flag </span></a>
+        </li>
+        <li data-tag="video">
+          <a href="#" class="video"><span class="material-icons-outlined"> ondemand_video </span></a>
+        </li>
+        <li data-tag="Groups">
+          <a href="#"><span class="material-icons-outlined"> groups </span>
           </a>
-        </div>
-        <div class="search">
-          <span class="material-icons-outlined"> search </span>
-          <input type="text" placeholder="Search Facebook" />
-        </div>
-        <div class="menu_toggler">
-          <a data-tag="Menu" href="#">
-            <span class="material-icons-outlined"> menu </span>
+        </li>
+        <li data-tag="Menu">
+          <a href="#"><span class="material-icons-outlined"> menu </span> </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="right_navigation">
+      <ul class="navigation">
+        <li class="profile">
+          <img src="./image/272046819_419322406649919_8144236668444061452_n.jpg" alt="profile" />
+          <span>Fatema</span>
+        </li>
+        <li class="apps">
+          <a href="#"><span class="material-icons-outlined"> apps </span></a>
+        </li>
+        <li class="add">
+          <a href="#"><span class="material-icons-outlined"> add </span></a>
+        </li>
+        <li class="messenger">
+          <a href="#"><i class="fab fa-facebook-messenger"></i></a>
+        </li>
+        <li class="notification">
+          <a class="notification-1" href="#">
+            <!-- <span class="material-icons-outlined"> notifications </span> -->
+            <i class="fas fa-bell"></i>
           </a>
+        </li>
+        <li class="arrow">
+          <a href="#"><span class="material-icons-outlined"> arrow_drop_down </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!-- header section end -->
+  <main>
+    <!-- left_header start -->
+    <aside class="left_header">
+      <ul>
+        <li>
+          <img src="./image/272046819_419322406649919_8144236668444061452_n.jpg" alt="" />
+          Fatema Jahira
+        </li>
+        <li>
+          <img
+            src="https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/-XF4FQcre_i.png?_nc_eui2=AeGDFHm6yT1ngOvtUsNsuquXzZiWk1i76CzNmJaTWLvoLM-TfrOu1NbIopL_HjNsODUTLMYBuzEDz_dHdHGDJukd"
+            alt="" />
+          Friends
+        </li>
+        <li>
+          <img
+            src="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/mk4dH3FK0jT.png?_nc_eui2=AeFZojjWJpdQzGPrhr014JypA_bf-kPbCmUD9t_6Q9sKZYJN0Ky5JJBsY56gRRFSmdRALt2SC2i85uRIJNL4XBGe"
+            alt="" />
+          Groups
+        </li>
+        <li>
+          <img
+            src="https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/2uPlV4oORjU.png?_nc_eui2=AeFBm4sKHX_Cz5Y9aiBUQDWveak_ngIfa7p5qT-eAh9rutqXGo3HfcM_ZgRmReFT8iBQrKTkGgZTwT3anPIPp_0Q"
+            alt="" />
+          Saved
+        </li>
+        <li>
+          <img
+            src="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/9BDqQflVfXI.png?_nc_eui2=AeE6VqfX-n07_Qayv1SRZDxFhiW3PpWMIZeGJbc-lYwhl6grMx4-QbOorr2rT1wiWcV6p9LHBIKB018rFow-zBXH"
+            alt="" />
+          Marketplace
+        </li>
+        <li>
+          <img
+            src="https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/A1HlI2LVo58.png?_nc_eui2=AeFbqeynniGbswleDPx7FmFkCWLM3IEe9I0JYszcgR70jQt6ocMDlZDyFPjvWvveY09J9tMuF8JLunETQEK7MOKz"
+            alt="" />
+          Watch
+        </li>
+        <li>
+          <img
+            src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/AYj2837MmgX.png?_nc_eui2=AeE7h1IN15e7l3XCSYaQoZi3D7-9NrPNDkEPv702s80OQTf-kZHbpQQjvlarHZVTkA3VNH2vxBfTnDUshk2l1TVh"
+            alt="" />
+          Memories
+        </li>
+        <li>
+          <img
+            src="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/i7hepQ2OeZg.png?_nc_eui2=AeEB_EJASrG4gDPJR5tKjD40Iucpu18fVQgi5ym7Xx9VCFqNA34DW0lwEFzWdd2VVBMsQ1KzhU7clycDh6Yqwfe3"
+            alt="" />
+          Pages
+        </li>
+        <li>
+          <span class="material-icons-outlined"> expand_more </span>
+          See More
+        </li>
+      </ul>
+      <div class="underline"></div>
+      <div class="shortcuts">
+        <h4>Your shortcuts</h4>
+        <a href="#">Edit</a>
+      </div>
+      <ul>
+        <li>
+          <img src="./image/tour.jpg" alt="" />
+          Our Tour
+        </li>
+        <li>
+          <img
+            src="https://lh3.googleusercontent.com/-XieT6xNKjc4/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnCPhgwsv7nEKo8E0qXrzDXvzc2hw/photo.jpg?sz=46"
+            alt="" />
+          Programming Jokes With Jahira
+        </li>
+        <li>
+          <img
+            src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/243530098_437272354633337_6854540201132327629_n.png?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=gOX-neG4bbMAX-sjwp1&_nc_ht=scontent.fcgp27-1.fna&oh=00_AT_XjKwF6UYP1etJpfAcsQ5zzNoTSn8Gt0Q9vCckuaaTuA&oe=61FADE69"
+            alt="" />
+          Coding Club Community
+        </li>
+        <li>
+          <img src="./image/batch.png" alt="" />
+          SCIC: Job Hunting Battlefield (Batch 4)
+        </li>
+      </ul>
+      <div class="footer_text">
+        <a href="#">Privacy . </a>
+        <a href="#">Terms . </a>
+        <a href="#">Advertising . </a>
+
+        <a href="#">Ad Choices
+          <span class="material-icons-outlined"> play_arrow </span>.
+        </a>
+        <br />
+        <a href="">Cookies . </a>
+        <a href="">More . </a>
+        <a>Meta © 2022</a>
+      </div>
+    </aside>
+    <!-- left_header end -->
+    <section class="middle_section">
+
+      <div class="story_container">
+        <div class="single_story">
+          <img src="./image/272046819_419322406649919_8144236668444061452_n.jpg" alt="" />
+          <div class="story_bottom">
+            <h4>Create Stroy</h4>
+            <div class="puls_icon">
+              <span class="material-icons-outlined"> add </span>
+            </div>
+          </div>
+        </div>
+        <div class="single_story others_story">
+          <img
+            src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/272891258_429592582289568_7496512973172920528_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=5b7eaf&_nc_ohc=2RVSKl4F-BAAX8xc1UH&_nc_ht=scontent.fcgp27-1.fna&oh=00_AT-v29pOqbVPVClrxvoMqvsxvYM9HIuCcvZNp7DfV92mag&oe=61FF187E"
+            alt="" />
+          <div class="story_title">
+            <h4>Your Story</h4>
+          </div>
+          <div class="story_avatar">
+            <img src="http://127.0.0.1:5500/image/272046819_419322406649919_8144236668444061452_n.jpg" alt="" />
+          </div>
+        </div>
+        <div class="single_story others_story">
+          <img
+            src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/272956578_3233696930196732_1412309847412528418_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=iOiKsfvXYvYAX81ObEN&_nc_ht=scontent.fcgp27-1.fna&oh=00_AT_dbis7klUzaUjJbkMwdGJWru0PjDx006BBUWURnUQSZg&oe=61FDB02A"
+            alt="" />
+          <div class="story_title">
+            <h4>Afrin Mitu</h4>
+          </div>
+          <div class="story_avatar">
+            <img
+              src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/272206578_3225296967703395_1290126260625171357_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=NaGbyphJq1YAX8sHwgD&_nc_ht=scontent.fcgp27-1.fna&oh=00_AT-ADJE498mdpbfmlR0buZeTHvUP3RcYVj0fR0dZEi05WQ&oe=61FF1F24"
+              alt="" />
+          </div>
+        </div>
+        <div class="single_story others_story story-m">
+          <img
+            src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/273018430_459643685701802_8847466461193687163_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=z91Fa09CSUEAX_YX-rG&_nc_ht=scontent.fcgp27-1.fna&oh=00_AT9QawUdB_-3zJvYtKOIB-g8NJJdbY8v6tkMMpk6HSxESA&oe=61FF108D"
+            alt="" />
+          <div class="story_title">
+            <h4>Shahariar Ahmmed</h4>
+          </div>
+          <div class="story_avatar">
+            <img
+              src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/271815913_451803389819165_2890074441407904849_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=V3S_SBfbDGcAX8C0CKb&_nc_ht=scontent.fcgp27-1.fna&oh=00_AT_WkJxuveQTnLdsuBIS-7NxmfAIw81ymM8TD9g9zSO04A&oe=61FD7392"
+              alt="" />
+          </div>
+        </div>
+        <div class="single_story others_story">
+          <img
+            src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t1.6435-9/169455095_1750265105153639_3767600166099425826_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=8rwWQk5asEsAX9LtFpK&_nc_ht=scontent.fcgp27-1.fna&oh=00_AT9UkLN2OQmLxLd4LtHCyFGojPeTV4sGM2OxmLNNrbq5RQ&oe=621E33CE"
+            alt="" />
+          <div class="story_title">
+            <h4>MD Golamur Rahman</h4>
+          </div>
+          <div class="story_avatar">
+            <img src="./image/271812041_1953060264874121_2912389168978113184_n.jpg" />
+          </div>
+        </div>
+        <div class="more_story">
+          <span class="material-icons-outlined"> arrow_forward </span>
         </div>
       </div>
-      <nav>
-        <ul class="center">
-          <li>
-            <a data-tag="Home" href="#">
-              <span class="material-icons-outlined"> home </span>
-            </a>
-          </li>
-          <li>
-            <a data-tag="fFriends" href="#">
-              <span class="material-icons-outlined"> people </span>
-            </a>
-          </li>
-          <li>
-            <a data-tag="Pages" href="#">
-              <span class="material-icons-outlined"> outlined_flag </span>
-            </a>
-          </li>
-          <li>
-            <a data-tag="Watch" href="#">
-              <span class="material-icons-outlined"> ondemand_video </span>
-            </a>
-          </li>
-          <li class="groups">
-            <a data-tag="Groups" href="#">
-              <span class="material-icons-outlined"> groups </span>
-            </a>
-          </li>
-          <li>
-            <a data-tag="Menu" href="#">
-              <span class="material-icons-outlined"> menu </span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div class="profile_section">
-        <ul class="center">
-          <li>
-            <a href="#">
-              <img
-                src="./image/272046819_419322406649919_8144236668444061452_n.jpg"
-                alt=""
-              />Fatema.
-            </a>
-          </li>
-          <li>
-            <span class="material-icons-outlined"> apps </span>
-          </li>
-          <li>
-            <span class="material-icons-outlined"> add </span>
-          </li>
-          <li>
-            <i class="fab fa-facebook-messenger"></i>
-          </li>
-          <li>
-            <span class="material-icons-outlined"> notifications </span>
-          </li>
-          <li>
-            <span class="material-icons-outlined"> arrow_drop_down </span>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <!-- header section end -->
+      <div class="activity_container">
+        <div class="inner_activity_area">
+          <div class="activity_img">
+            <img src="./image/272046819_419322406649919_8144236668444061452_n.jpg" alt="">
+          </div>
+          <div class="activity_input">
+            <input type="text" placeholder="What's on your mind, Fatema...?">
+          </div>
 
-    <!-- main section start -->
-    <main>
-      <aside class="left_header">
-        <ul>
-          <li>
-            <img
-              src="./image/272046819_419322406649919_8144236668444061452_n.jpg"
-              alt=""
-            />
-            Fatema Tuj Jahira
-          </li>
-          <li>
-            <img
-              src="https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/-XF4FQcre_i.png?_nc_eui2=AeGDFHm6yT1ngOvtUsNsuquXzZiWk1i76CzNmJaTWLvoLM-TfrOu1NbIopL_HjNsODUTLMYBuzEDz_dHdHGDJukd"
-              alt=""
-            />
-            Friends
-          </li>
-          <li>
-            <img
-              src="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/mk4dH3FK0jT.png?_nc_eui2=AeFZojjWJpdQzGPrhr014JypA_bf-kPbCmUD9t_6Q9sKZYJN0Ky5JJBsY56gRRFSmdRALt2SC2i85uRIJNL4XBGe"
-              alt=""
-            />
-            Groups
-          </li>
-          <li>
-            <img
-              src="https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/2uPlV4oORjU.png?_nc_eui2=AeFBm4sKHX_Cz5Y9aiBUQDWveak_ngIfa7p5qT-eAh9rutqXGo3HfcM_ZgRmReFT8iBQrKTkGgZTwT3anPIPp_0Q"
-              alt=""
-            />
-            Saved
-          </li>
-          <li>
-            <img
-              src="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/9BDqQflVfXI.png?_nc_eui2=AeE6VqfX-n07_Qayv1SRZDxFhiW3PpWMIZeGJbc-lYwhl6grMx4-QbOorr2rT1wiWcV6p9LHBIKB018rFow-zBXH"
-              alt=""
-            />
-            Marketplace
-          </li>
-          <li>
-            <img
-              src="https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/A1HlI2LVo58.png?_nc_eui2=AeFbqeynniGbswleDPx7FmFkCWLM3IEe9I0JYszcgR70jQt6ocMDlZDyFPjvWvveY09J9tMuF8JLunETQEK7MOKz"
-              alt=""
-            />
-            Watch
-          </li>
-          <li>
-            <img
-              src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/AYj2837MmgX.png?_nc_eui2=AeE7h1IN15e7l3XCSYaQoZi3D7-9NrPNDkEPv702s80OQTf-kZHbpQQjvlarHZVTkA3VNH2vxBfTnDUshk2l1TVh"
-              alt=""
-            />
-            Memories
-          </li>
-          <li>
-            <img
-              src="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/i7hepQ2OeZg.png?_nc_eui2=AeEB_EJASrG4gDPJR5tKjD40Iucpu18fVQgi5ym7Xx9VCFqNA34DW0lwEFzWdd2VVBMsQ1KzhU7clycDh6Yqwfe3"
-              alt=""
-            />
-            Pages
-          </li>
-          <li>
-            <span class="material-icons-outlined"> expand_more </span>
-            See More
-          </li>
-        </ul>
+        </div>
+        <div class="separotor"></div>
+        <div class="activity_icon">
+          <div class="video_icon">
+            <span class="material-icons-outlined">
+              video_call
+            </span>
+            <h4>Live video</h4>
+          </div>
+          <div class="photo_icon">
+            <span class="material-icons-outlined">
+              photo_library
+            </span>
+            <h4>Photo/video</h4>
+          </div>
+          <div class="feeling_icon">
+            <span class="material-icons-outlined">
+              emoji_emotions
+            </span>
+            <h4>Feeling/activity</h4>
+          </div>
+        </div>
+
+      </div>
+      <div class="create_room_container activity_container">
+        <div class="room_btn">
+          <div class="room_btn_img">
+            <img src="./image/create-room.png
+         " alt="">
+          </div>
+          <div class="room_btn_text">
+            <p>Create room</p>
+          </div>
+        </div>
+        <div class="active_member active_room_member">
+          <ul>
+            <li data-tag="Fahim Say hi!">
+              <a href="#"><img src="./image/271812041_1953060264874121_2912389168978113184_n.jpg" alt="fahim" /> </a>
+            </li>
+            <li data-tag="Md. Say hi!">
+              <a href="#"><img src="./image/267830763_1166318110565325_7740303236386035558_n.jpg" alt="fahim" /> </a>
+            </li>
+            <li data-tag="Dipto Say hi!">
+              <a href="#"><img src="./image/dipto.jpg" alt="fahim" /> </a>
+            </li>
+            <li data-tag="Afrin Say hi!">
+              <a href="#"><img
+                  src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/272206578_3225296967703395_1290126260625171357_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=NaGbyphJq1YAX8sHwgD&_nc_ht=scontent.fcgp27-1.fna&oh=00_AT-ADJE498mdpbfmlR0buZeTHvUP3RcYVj0fR0dZEi05WQ&oe=61FF1F24"
+                  alt="fahim" /> </a>
+            </li>
+            <li data-tag="Shahariar Say hi!">
+              <a href="#"><img src="./image/tanim.jpg" alt="fahim" /> </a>
+            </li>
+            <li data-tag="fahim Say hi!">
+              <a href="#"><img src="./image/271812041_1953060264874121_2912389168978113184_n.jpg" alt="fahim" /> </a>
+            </li>
+          </ul>
+          <div class="more_room">
+            <span class="material-icons-outlined"> chevron_right </span>
+          </div>
+        </div>
+      </div>
+      <!-- =====================
+      post content
+    =========================== -->
+      <div class="activity_content">
+      <div class="post_box ">
+        <div class="user_post">
+            <div class="user_profile">
+                <div class="user_img">
+                    <img src="./image/clg.jpg" alt="">
+                </div>
+
+                <div class="user_name">
+                    <a href="#">
+                        <h5>Govt College</h5>
+                    </a>
+                    <div class="post_time">
+                        <p>2h .
+                            <span class="material-icons-outlined">
+                                public
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="more_post">
+                <span class="material-icons-outlined">
+                    more_horiz
+                </span>
+            </div>
+        </div>
+
+        <div class="post_text">
+            <p>বাংলাদেশে ৫০ টাকার কয়েনের যাত্রা শুরু 
+              <br>
+              অভিনন্দন 💚
+               </p>
+
+
+            <div class="post_img">
+                <img class="fst_img" src="./image/50.jpg" alt="">
+                <img src="./image/51.jpg" alt="">
+            </div>
+        </div>
+
+
+        <div class="post_activities">
+
+            <div class="post_reaction">
+                <img src="./image/love.png" alt="">
+                <img src="./image/care.svg" alt="">
+                <img src="./image/like.png" alt="">
+                <h5><a href="">Saomee Naba and 5.1k others</a></h5>
+            </div>
+
+            <div class="comments_share">
+                <h5><a href="">2.1 Comments</a></h5>
+                <h5><a href=""> 1k Shares</a></h5>
+            </div>
+        </div>
+
         <div class="underline"></div>
-        <div class="shortcuts">
-          <h4>Your shortcuts</h4>
-          <a href="#">Edit</a>
+
+        <div class="like_cmt_shr_area">
+         <div class="like_cmt_ar_container">
+          <div class="like react_hover">
+            <span class="material-icons-outlined">
+              thumb_up
+          </span> <p>Like</p>
+          </div>
+          <div class="like">
+            <span class="material-icons-outlined">
+              chat_bubble_outline
+          </span> <p>comment</p>
+          </div>
+          <div class="like">
+            <span class="material-icons-outlined">
+              reply
+          </span> <p>share</p>
+          </div>
+          
+         </div>
+        </div>
+        <div class="underline"></div>
+        <div class="comm_input">
+          <div class="inner_activity_area">
+            <div class="activity_img">
+              <img src="./image/272046819_419322406649919_8144236668444061452_n.jpg" alt="">
+            </div>
+            <div class="activity_input">
+              <input type="text" placeholder="What's on your mind, Fatema...?">
+            </div>
+        
+          </div>
+        </div>
+    <!-- 2nd -->
+    </div>
+      <div class="post_box ">
+        <div class="user_post">
+            <div class="user_profile">
+                <div class="user_img">
+                    <img src="./image/271812041_1953060264874121_2912389168978113184_n.jpg" alt="">
+                </div>
+
+                <div class="user_name">
+                    <a href="#">
+                        <h5>Fahim Faizan</h5>
+                    </a>
+                    <div class="post_time">
+                        <p>2h .
+                            <span class="material-icons-outlined">
+                                public
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="more_post">
+                <span class="material-icons-outlined">
+                    more_horiz
+                </span>
+            </div>
+        </div>
+
+        <div class="post_text">
+            <p>Happiness❤️❤️
+              <br>
+        
+               </p>
+
+
+            <div class="second_post_img">
+                <img class="fst_img" src="./image/fahim post.jpg" alt="">
+               
+            </div>
+        </div>
+
+
+        <div class="post_activities">
+
+            <div class="post_reaction">
+                <img src="./image/love.png" alt="">
+                <img src="./image/like.png" alt="">
+                <img src="./image/care.svg" alt="">
+                <h5><a href="">Dipto Das and 111 others</a></h5>
+            </div>
+
+            <div class="comments_share">
+                <h5><a href="">21 Comments</a></h5>
+                <h5><a href=""> 6 Shares</a></h5>
+            </div>
+        </div>
+
+        <div class="underline"></div>
+
+        <div class="like_cmt_shr_area">
+         <div class="like_cmt_ar_container">
+          <div class="like react_hover">
+            <span class="material-icons-outlined">
+              thumb_up
+          </span> <p>Like</p>
+          </div>
+          <div class="like">
+            <span class="material-icons-outlined">
+              chat_bubble_outline
+          </span> <p>comment</p>
+          </div>
+          <div class="like">
+            <span class="material-icons-outlined">
+              reply
+          </span> <p>share</p>
+          </div>
+          
+         </div>
+        </div>
+        <div class="underline"></div>
+        <div class="comm_input">
+          <div class="inner_activity_area">
+            <div class="activity_img">
+              <img src="./image/272046819_419322406649919_8144236668444061452_n.jpg" alt="">
+            </div>
+            <div class="activity_input">
+              <input type="text" placeholder="What's on your mind, Fatema...?">
+            </div>
+        
+          </div>
+        </div>
+
+
+    </div>
+    
+    
+      <div class="post_box">
+        <div class="user_post">
+            <div class="user_profile">
+                <div class="user_img">
+                    <img src="./image/1.jpg" alt="">
+                </div>
+
+                <div class="user_name">
+                    <a href="#">
+                        <h5>Morjina </h5>
+                    </a>
+                    <div class="post_time">
+                        <p>2h .
+                            <span class="material-icons-outlined">
+                                public
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="more_post">
+                <span class="material-icons-outlined">
+                    more_horiz
+                </span>
+            </div>
+        </div>
+
+        <div class="post_text">
+            <p>চট্টগ্রামের মিরসরাই খৈয়াছড়া ঝর্ণা !! যারা যেতে চান দেখে নিন রিস্ক এর জায়গা গুলি। ট্যুর এ গেলে হেল্প হবে এবং সাবধানে যেতে পারবেন। যারা ঘুরতে পছন্দ করেন তারা এই রাস্তাগুলি অথবা এই পথ গুলি সবসময় সাবধানে অতিক্রম করবেন। একটু অসাবধানতা বড় বিপদের কারন হতে পারে। </p>
+
+
+            <div class="second_post_img">
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/oiroLUs-M30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="fahim_youtube">
+              <h6>YOUTUBE.COM</h6>
+              <h4>খৈয়াছড়া ঝর্ণা | khoiyachora waterfall | Abrar fahim's creation</h4>
+            </div>
+        </div>
+
+
+        <div class="post_activities">
+
+            <div class="post_reaction">
+                <img src="./image/love.png" alt="">
+                <img src="./image/like.png" alt="">
+                <h5><a href="">Shahriyer and 7.1k others</a></h5>
+            </div>
+
+            <div class="comments_share">
+                <h5><a href="">1.1k Comments</a></h5>
+                <h5><a href=""> 1k Shares</a></h5>
+            </div>
+        </div>
+
+        <div class="underline"></div>
+
+        <div class="like_cmt_shr_area">
+         <div class="like_cmt_ar_container">
+          <div class="like react_hover">
+            <span class="material-icons-outlined">
+              thumb_up
+          </span> <p>Like</p>
+          </div>
+          <div class="like">
+            <span class="material-icons-outlined">
+              chat_bubble_outline
+          </span> <p>comment</p>
+          </div>
+          <div class="like">
+            <span class="material-icons-outlined">
+              reply
+          </span> <p>share</p>
+          </div>
+          
+         </div>
+        </div>
+        <div class="underline"></div>
+        <div class="comm_input">
+          <div class="inner_activity_area">
+            <div class="activity_img">
+              <img src="./image/272046819_419322406649919_8144236668444061452_n.jpg" alt="">
+            </div>
+            <div class="activity_input">
+              <input type="text" placeholder="What's on your mind, Fatema...?">
+            </div>
+        
+          </div>
+        </div>
+
+
+    
+
+    </div>
+     </div>
+
+    </section>
+    <aside class="right_header">
+      <div class="request_container">
+        <div class="request">
+          <div class="friend_request_img">
+            <img src="./image/friends.png" alt="" />
+            <span>Friend Request</span>
+          </div>
+          <div class="icons">
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+        </div>
+        <div class="request_paren">
+          <div class="request_img">
+            <img
+              src="./image/rohan.jpg"
+              alt="">
+          </div>
+          <div class="request_text_area">
+            <h6><a href="#">Shahariar Rohan</a></h6>
+            <P>2 matual friends</P>
+            <div class="button">
+              <button class="confirm-button">Confirm</button>
+              <button class="delete_button">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="underline"></div>
+      <div class="my_page_container">
+        <div class="pages">
+          <p>Your Page</p>
+          <span class="material-icons-outlined"> more_horiz </span>
         </div>
         <ul>
-          <li>
-            <img
-              src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t1.6435-9/162026800_216661793353829_8560803416093141374_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=xFEYDY6B1PAAX8nM_LX&_nc_ht=scontent.fcgp27-1.fna&oh=00_AT9z093O-Qb0YXToJyGqegf9WOiFsU94dsRrVZ0IjU_FYw&oe=621D9CF5"
-              alt=""
-            />
-            Our Tour
-          </li>
           <li>
             <img
               src="https://lh3.googleusercontent.com/-XieT6xNKjc4/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnCPhgwsv7nEKo8E0qXrzDXvzc2hw/photo.jpg?sz=46"
-              alt=""
-            />
+              alt="" />
             Programming Jokes With Jahira
           </li>
+          <div class="page-note">
+            <span class="material-icons-outlined"> notifications </span>
+            <p class="page_notification">8 Notification </p>
+          </div>
+        </ul>
+      </div>
+      <div class="underline-2"></div>
+      <div class="contact_container">
+        <div class="contact">
+          <h4>Contact</h4>
+
+          <div class="">
+            <span class="material-icons-outlined"> video_call </span>
+            <span class="material-icons-outlined"> search </span>
+            <span class="material-icons-outlined"> more_horiz </span>
+          </div>
+        </div>
+      </div>
+      <div class="active_member_container">
+        <div class="active_member">
+          <ul>
+            <li>
+              <a href="#"><img src="./image/271812041_1953060264874121_2912389168978113184_n.jpg" alt="fahim" />
+                Md. Gulamur Rahman
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/267830763_1166318110565325_7740303236386035558_n.jpg" alt="rokib" />
+                Md Rokibul Hasan
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/sahabi.jpg" alt="sahabi" />
+                SA HA BI
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/dipto.jpg" alt="salmin" />
+                Dipto Das
+              </a>
+            </li>
+            <li>
+              <a href="#"><img
+                  src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/271134120_121766603674525_4070415337602880225_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=6nbnPmdnPVkAX-BH0HI&_nc_ht=scontent.fcgp27-1.fna&oh=00_AT_m5loo-h3MKy_AdXe296JlD_Kg4ARmE7RUcmCbtxqFsQ&oe=61FCCDD3"
+                  alt="sinha" />
+                Priya Saha
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/salmin.jpg" alt="salmin" />
+                Salmin Islam
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/sigma.jpg" alt="sigma" />
+                Sigma Bhuiya
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/tanim.jpg" alt="tanim" />
+                Shahriyer Ahmmed Tanim
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/sinha.jpg" alt="sinha" />
+                Movaasshira Sinha
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/naba.jpg" alt="sinha" />
+                Saomee Naba
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/sojib.jpg" alt="sinha" />
+                Abdul Awal Sojib
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/ratry.jpg" alt="sinha" />
+                Tasfia Ratry
+              </a>
+            </li>
+
+            <li>
+              <a href="#"><img
+                  src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/261406923_423800242735779_2156865364265308960_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=t-H1SkvryLQAX-JsJR8&_nc_ht=scontent.fcgp27-1.fna&oh=00_AT8ldYdr8JB4aFIEMFawYVz42kgDnoQZD1BhIfmds7P9Ng&oe=61FD6FE5"
+                  alt="sinha" />
+                Nazifa Mashiat Pushon
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="underline-2"></div>
+      <div class="group_container">
+        <h4>Group Conversations</h4>
+        <ul>
           <li>
-            <img
-              src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/243530098_437272354633337_6854540201132327629_n.png?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=gOX-neG4bbMAX-sjwp1&_nc_ht=scontent.fcgp27-1.fna&oh=00_AT_XjKwF6UYP1etJpfAcsQ5zzNoTSn8Gt0Q9vCckuaaTuA&oe=61FADE69"
-              alt=""
-            />
-            Coding Club Community
-          </li>
-          <li>
-            <img
-              src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/s960x960/260846492_10158343650626891_4165654915966660854_n.png.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8631f5&_nc_ohc=f4PoYaXFlJ0AX8bkD5U&_nc_ht=scontent.fcgp27-1.fna&oh=00_AT8F0C6HvlxYEZTixmQjDxO5e4FG3YZerAUlDpvvzqLBDA&oe=61FB8F25"
-              alt=""
-            />
-            SCIC: Job Hunting Battlefield (Batch 4)
+            <a href="#"><img
+                src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/243530098_437272354633337_6854540201132327629_n.png?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=gOX-neG4bbMAX-sjwp1&_nc_ht=scontent.fcgp27-1.fna&oh=00_AT_XjKwF6UYP1etJpfAcsQ5zzNoTSn8Gt0Q9vCckuaaTuA&oe=61FADE69"
+                alt="" />
+              Coding Club Pemium Group - Mission 2022</a>
           </li>
         </ul>
-      </aside>
-      <section class="middle_section"></section>
-      <aside class="right_header"></aside>
-    </main>
-    <!-- main section end -->
-  </body>
+        <ul>
+          <li>
+            <a href="#"><img src="./image/nsd (1).jpg" alt="" /> NGGHS SSC Batch- 2021</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img
+                src="https://cms-assets.tutsplus.com/uploads/users/1451/posts/28622/preview_image/custom-html-tag.png"
+                alt="" />Legend's Of Complete Web Development Batch 4</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><span class="material-icons-outlined"> add </span> Create New
+              Group</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+</body>
+
 </html>
